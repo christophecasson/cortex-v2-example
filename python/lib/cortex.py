@@ -24,7 +24,7 @@ wslogger.setLevel(logging.INFO)
 wslogger.addHandler(logging.StreamHandler())
 
 logger = logging.getLogger('cortex')
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.ERROR)
 logger.addHandler(logging.StreamHandler())
 
 
